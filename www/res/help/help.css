@@ -1,0 +1,292 @@
+@charset "utf-8";
+/* CSS Document */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video { margin:0; padding:0; border:0; font-size:100%; font:inherit; outline:none;}h1,h2,h3,h4,h5,h6{ font-weight:normal;}body{ background-color:#004967; font-family:"Microsoft YaHei", arial, Verdana, sans-serif; color:#fff;}
+a{ text-decoration:none; outline: none;}a:active{star:expression(this.onFocus=this.blur());}
+img{ border:0; max-width:100%;}input{ outline:none;}ol,ul{ list-style:none;}.pr{ position:relative;}.pa{ position:absolute;}.overflow{ overflow:hidden;}.float_l{ float:left;}.float_r{ float:right;}.clear{ clear:both;}.font_yahei{ font-family:"Microsoft Yahei",Verdana, Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold;}.font_songti{ font-family:"simsun",Verdana, Arial, Helvetica, sans-serif;}.font_12{ font-size:12px;}.font_14{ font-size:14px;}.font_16{ font-size:16px;}.font_18{ font-size:18px;}.font_22{ font-size:22px;}.text_decud{ text-decoration:underline;}.color_cc8{ color:#c8feff;}.color_rff{ color:#ff4646;}
+/*---public---*/
+.bg_h_shadow{ height:20px; background-color:#004967; -webkit-box-shadow:inset 0 8px 5px #004967; -moz-box-shadow:inset 0 8px 5px #004967; box-shadow:inset 0 8px 5px #004967;}
+header h1{ margin:0 auto; text-align:center; font-size:22px; height:30px; line-height:30px; padding:0 15px; }
+/*---notice---*/
+.bg_notice_box{ width:90%; margin:0 auto;}
+.bg_gg_box{ width:100%; margin:0 auto; padding:20px 0 80px 0;}
+.bg_notice_con{ display:block; background:url(http://png.gc73.com.cn/sj_lobby/ebank/bg_notice_title.gif) repeat-x bottom center; background-size:100% 2px; margin:0 auto; color:#fff; width:100%; height:55px; line-height:55px; font-size:14px;}
+.bg_noticeimg_con{ display:block; margin:0 auto; text-align:center;}
+.ticket_bdsj_title{ width:90%; margin:0 auto; background:url(http://png.gc73.com.cn/sj_lobby/ebank/bg_ticket_bdsj_t_b.gif) repeat-x bottom center; background-size:100% 2px; text-align:center; padding-bottom:10px;}
+.ticket_guize_content{ width:90%; margin:0 auto; padding-top:10px;}
+.ticket_gz_title{ position:relative; margin-bottom:10px; overflow:hidden;}
+.ticket_gz_title h1{ float:left; border:1px solid #2F7A8C; background-color:#092c32; border-radius:3px; width:85px; height:23px; line-height:23px; color:#f6f4ca; font-size:16px; text-align:center;}
+.ticket_gz_title h2{ float:left; margin-top:2px; font-size:15px; color:#70bbca;}
+.ticket_gz_nr{ margin-bottom:10px; padding-left:10px; color:#FFF; font-size:15px;}
+.ticket_gz_nr p{ line-height:24px;}
+.ticket_gz_jietu{ text-align:left;}
+@media only screen and (min-width:0) and (max-width:480px){.bg_noticeimg_con{ width:320px;}.bg_noticeimg_con img{ width:320px; height:auto;}.ticket_gz_jietu img{ width:320px; height:auto;}}
+@media only screen and (min-width:480px) and (max-width:640px){.bg_noticeimg_con{ width:480px;}.bg_noticeimg_con img{ width:480px; height:auto;}.ticket_gz_jietu img{ width:480px; height:auto;}}
+@media only screen and (min-width:640px) and (max-width:768px){.bg_noticeimg_con{ width:640px;}.bg_noticeimg_con img{ width:640px; height:auto;}.ticket_gz_jietu img{ width:640px; height:auto;}}
+@media only screen and (min-width:768px){.bg_noticeimg_con{ width:720px;}.bg_noticeimg_con img{ width:720px; height:auto;}.ticket_gz_jietu img{ width:667px; height:auto;}}
+
+.bg_not_nr{ overflow:hidden; padding:0 10px 0 15px;}
+.bg_notice_con h4{ font-size:15px; color:#fff; float:left;}
+.bg_notice_con span{ display:block; width:50px; font-size:15px; float:right; color:#70bbca;}
+.bg_notice_nr h3{ font-size:16px; color:#8adaff; margin-bottom:10px;}
+.bg_notice_nr h6{ font-size:14px; color:#c8feff; margin-bottom:10px;}
+.bg_notice_nr{ color:#FFF;}
+.bg_notice_nr .color_yellow{ color:#ff8a00;}
+.bg_notice_nr p{ line-height:200%; font-size:14px;}
+.bg_notice_nr .mt_20{ margin-top:20px;}
+.bg_notice_nr .mt_10{ margin-top:10px;}
+.bg_notice_nr .ml_15{ margin-left:15px;}
+.bg_faq_nr{ font-size:14px; margin-bottom:30px;}
+.faq_nr_list{ padding:20px 0 30px 0;}
+.faq_q_title,.faq_q_con{ overflow:hidden; line-height:180%; font-size:14px;}
+.faq_q_title{ color:#c8feff;}
+.faq_q_con{ margin-bottom:8px;}
+.faq_q_title span,.faq_q_con span{ display:block; float:left; width:25px;}
+.faq_q_title p,.faq_q_con p{ float:left; width:90%;}
+/*---notice---*/
+/*---help---*/
+.bg_help_c_title{  width:99%; margin:10px auto;  background-color:#01425c; border-radius:6px;}
+.help_t_tab{ width:90%; margin:0 auto;}
+.help_t_tab a{ color:#fff; font-size:14px; display:block;}
+.help_t_tab a img{ max-width:none;}
+.bg_help_line_y{ width:2px; height:95px; background:url(http://png.gc73.com.cn/sj_lobby/ebank/bg_help_line_y.png) repeat-y center center; background-size:2px auto;}
+.help_c_tel{ background:url(http://png.gc73.com.cn/sj_lobby/ebank/bg_help_line.png) repeat-x top center; padding-top:15px; overflow:hidden; text-align:center;}
+.help_c_tel span{ color:#c8feff; font-size:16px; margin-bottom:5px;}
+.help_c_tel h3{ color:#ffc547; margin-bottom:5px;}
+.help_c_tel h3 img{ position:relative; top:3px;}
+.bg_help_c_content{ padding:10px 0; width:99%; margin:0 auto;}
+.help_c_tab{ width:100%; margin:0 auto;}
+.btn_help_c_pulic{ display:block;  border:1px solid #02839b; border-radius:6px; background:url(http://png.gc73.com.cn/sj_lobby/ebank/bg_helpc_btn_all.png) repeat-x; }
+.btn_help_c_pulic:hover{ border:1px solid #20edff;}
+.btn_help_c_pulic h1{  color:#fff; margin-bottom:5px;}
+.btn_help_c_pulic p{ color:#3b7994;}
+.bg_help_c_select{ width:99%; margin:0 auto; background-color:#e9e7e8; height:27px; padding:4px 0 0 4px; border:1px solid #092b41; -moz-box-shadow:3px 3px 3px #CDC6C9 inset; -webkit-box-shadow:3px 3px 3px #CDC6C9 inset; box-shadow:3px 3px 3px #CDC6C9 inset; position:relative;}
+.bg_help_c_select input{ width:80%; height:22px; line-height:22px; font-size:12px; color:#003249; background-color:#e9e7e8; border:0;}
+.bg_btn_h_select{ display:block; width:20%; height:28px; padding-top:3px; text-align:center; background-image:-moz-linear-gradient( 90deg, #0b5f7b 0%, #2f90b7 100%); background-image:-webkit-linear-gradient( 90deg, #0b5f7b 0%, #2f90b7 100%); background-image:-ms-linear-gradient( 90deg, #0b5f7b 0%, #2f90b7 100%); position:absolute; right:0; top:0;}
+.bg_helpny_title{ display:block; border:1px solid #13708f; background:url(http://png.gc73.com.cn/sj_lobby/ebank/bg_notice_btn_all.png) repeat-x #0b5e79; background-size:100% 100%; box-shadow: 1px 1px 5px 0 #003c54; margin:0 auto 5px auto; color:#fff; width:99%;font-size:14px; position:relative; z-index:1;}
+.bg_helpny_nr{ overflow:hidden; padding:0 10px;}
+.bg_helpny_question{ padding-bottom:10px;}
+.bg_helpny_title h4{ font-size:14px; color:#fff; overflow:hidden;}
+.bg_helpny_title h4 span{ display:block; width:30px; float:left; }
+.bg_helpny_title h4 p{ line-height:20px; width:80%; float:left;}
+.bg_helpny_title h5{ position:absolute; bottom:5px; right:10px; color:#70bbca;}
+.bg_helpny_dacon{ background-color:#093547; border:1px solid #093547; width:99%; margin:0 auto;}
+.bg_helpny_dacon p{ padding:0 10px;  color:#8dc8ca;}
+.btn_helpny_daclose{ display:block; height:24px; padding-top:3px; text-align:center; margin:0 auto; border-radius:2px; background-color:#619BAA;}
+.help_game_js_title{ color:#63fff6; font-size:16px; margin:10px 0 5px 0;}
+.hg_js_style01{ font-size:14px; color:#8adaff;}
+.help_game_js_con p{ font-size:14px; text-indent:2em;line-height:22px; }
+
+.tjjy_header_con{ background-color:#0C567C; border:1px solid #02839b; border-top-left-radius:10px; border-top-right-radius:10px; border-radius-topleft:10px; border-radius-bottomright:10px; width:94%; margin:10px auto; height:37px; overflow:hidden;}
+.tjjy_nav_tab{ width:100%; margin:0 auto;}
+.tjjy_nav_tab a{ display:block; width:100%; height:37px; line-height:37px; color:#fff; font-size:16px;}
+.tjjy_nav_tab .btn_navtab_tjjy.bg_hover{ background-color:#023C57; border-top-left-radius:10px;}
+.tjjy_nav_tab .btn_navtab_jyhf.bg_hover{ background-color:#023C57; border-top-right-radius:10px;}
+.bg_jyhf_con{ display:block; border:1px solid #13708f; background:url(http://png.gc73.com.cn/sj_lobby/ebank/bg_notice_btn_all.png) repeat-x; background-size:100% 45px; box-shadow: 1px 1px 5px 0 #003c54; margin:0 auto 10px auto; color:#fff; width:100%; height:45px; line-height:45px; font-size:14px;}
+.bg_jyhf_box{ width:94%; margin:0 auto; padding:0 0 50px 0;}
+
+.bg_jyhf_title{ display:block; border:1px solid #13708f; background:url(http://png.gc73.com.cn/sj_lobby/ebank/bg_notice_btn_all.png) repeat-x; background-size:100% 100%; box-shadow: 1px 1px 5px 0 #003c54; margin:0 auto 5px auto; color:#fff; width:99%;  position:relative;}
+.bg_jyhf_nr{ overflow:hidden; padding:0 10px;}
+.jyhf_tishi{ font-size:16px; width:300px; margin:0 auto; color:#bbf6ff; line-height:24px; text-align:center; padding-top:40px;}
+.bg_jyhf_question{ padding-bottom:10px;}
+.bg_jyhf_title h4{ font-size:14px; color:#fff; overflow:hidden;}
+.bg_jyhf_title h4 span{ display:block; width:30px; float:left; margin-top:2px;}
+.bg_jyhf_title h4 p{ line-height:20px; width:80%; float:left;}
+.bg_jyhf_title h5{ position:absolute; color:#70bbca; width:100px; text-align:left;}
+.bg_jyhf_title h5 img{ position:relative; left:3px; top:3px;}
+.bg_jyhf_dacon{ background-color:#093547; border:1px solid #093547; width:99%; margin:0 auto;}
+.jyhf_danr_wid{ padding:10px;}
+.bg_jyhf_dacon .mt_10{ margin-top:10px;}
+.bg_jyhf_dacon a{ color:#32aefd; text-decoration:underline;}
+.bg_jyhf_dacon p{ font-size:14px; color:#8dc8ca;}
+.bg_jyhf_dacon p .color_blue{ color:#48d6f0;}
+.bg_tjjy_box{ width:94%; margin:0 auto; padding:10px 0 50px 0;}
+.help_tjjy_title{ color:#c8feff; font-size:14px; margin-bottom:10px; line-height:22px;}
+.help_tjjy_con{ width:95%; margin:0 auto; text-align:center;}
+.help_tjjy_con .text_tjjy{ border:1px solid #092b41; border-radius:6px; background-color:#e9e7e8; width:99%; height:150px; line-height:20px; color:#003249; font-weight:600; font-size:14px; -moz-box-shadow:3px 3px 3px #CDC6C9 inset; -webkit-box-shadow:3px 3px 3px #CDC6C9 inset; box-shadow:3px 3px 3px #CDC6C9 inset; margin:0 auto 10px auto;}
+.text_tjjy_tel{  margin:0 auto; font-size:14px; color:#c8feff; overflow:hidden;}
+.text_tjjy_tel .help_inp_tel{ border:1px solid #092b41; border-radius:6px; background-color:#e9e7e8; width:90%; padding-left:5px; height:30px; line-height:30px; color:#003249; font-weight:600; font-size:14px; -moz-box-shadow:3px 3px 3px #CDC6C9 inset; -webkit-box-shadow:3px 3px 3px #CDC6C9 inset; box-shadow:3px 3px 3px #CDC6C9 inset;}
+.text_tjjy_tel .help_inp_iphone{ border:1px solid #092b41; border-radius:6px; background-color:#e9e7e8; width:90%; padding-left:5px; height:30px; line-height:30px; color:#003249; font-weight:600; font-size:14px; -moz-box-shadow:3px 3px 3px #CDC6C9 inset; -webkit-box-shadow:3px 3px 3px #CDC6C9 inset; box-shadow:3px 3px 3px #CDC6C9 inset;}
+.btn_tjjy_tjcon .btn_ebank_cr{ display:block; border:1px solid #302708; border-radius:8px; background:url(http://png.gc73.com.cn/sj_lobby/ebank/bg_btn_all.png) repeat-x; background-size:117px 45px; width:117px; height:45px; line-height:45px; font-size:20px; font-weight:700; text-align:center; color:#4c2700; text-shadow:1px 1px 1px #f6d926; margin:0 auto;}
+
+@media only screen and (min-width:0)  and (max-width:359px){
+header h1{ font-size:16px;}	
+.bg_help_c_title{ height:115px; padding:15px 0 0 0;}	
+.help_t_tab a img{ width:60px; height:55px;}
+.help_t_tab h2{ font-size:14px;}
+.bg_help_c_pu{ height:85px;}
+.btn_help_c_pulic{ height:55px; background-size:100% 72px;  padding-top:17px;}
+.btn_help_c_pulic h1{ font-size:13px;}
+.btn_help_c_pulic p{ font-size:10px;}
+.help_c_tel h3,.help_c_tel span{ font-size:15px;}
+.help_c_tel h3 img{ width:16px; height:19px;}	
+.bg_helpny_title,.bg_helpny_dacon{  line-height:35px; font-size:13px;}
+.bg_helpny_title img{ width:18px; height:20px; vertical-align:middle}
+.bg_leftmenu_con h1{ font-size:12px;}
+.bg_leftmenu_con .bg_leftmenu_title{ height:35px; line-height:35px; font-size:12px;}
+.bg_helpny_title h4{ font-size:12px;}
+.bg_helpny_title h4 p{ line-height:35px;}
+.bg_helpny_title h5{ bottom:2px;}
+.help_game_js_title{ font-size:14px;}
+.help_game_js_con p,.hg_js_style01{ font-size:12px; line-height:22px; }
+.tjjy_header_con,.tjjy_nav_tab a{ height:40px; line-height:40px; font-size:16px;}
+.help_tjjy_title,.text_tjjy_tel{ font-size:12px;}
+.help_tjjy_con .text_tjjy{ height:143px; font-size:12px;}
+.text_tjjy_tel .help_inp_tel,.text_tjjy_tel .help_inp_iphone{ height:30px; line-height:30px;font-size:12px;}
+.btn_tjjy_tjcon .btn_ebank_cr{ width:113px; height:43px; line-height:43px; background-size:100% 43px;}
+.text_tjjy_tel td{ height:45px; }
+.text_tjjy_tel .td_01{ width:60px;}
+.text_tjjy_tel .td_02{ width:182px;}
+.btn_tjjy_tjcon{ padding-top:0px;}
+
+.bg_jyhf_title h4,.bg_jyhf_dacon p{ font-size:13px;}
+.bg_jyhf_title h4 p{ line-height:35px;}
+.bg_jyhf_title h5{ right:-10px; bottom:7px;  font-size:12px;}
+.faq_q_title, .faq_q_con{ font-size:12px;}
+.bg_notice_box{ padding:0px 0 80px 0;}
+.bg_notice_nr h3{ font-size:15px; margin-bottom:10px;}
+.bg_notice_nr h6{ font-size:12px; margin-bottom:10px;}
+.bg_notice_nr p {font-size: 13px;}
+	}
+@media only screen and (min-width:360px) and (max-width:479px){
+header h1{ font-size:18px;}
+.bg_help_c_title{ height:120px; padding:20px 0 0 0;}	
+.help_t_tab a img{ width:68px; height:62px;}
+.help_t_tab h2{ font-size:15px;}
+.bg_help_c_pu{ height:95px;}
+.btn_help_c_pulic{ height:60px; background-size:100% 81px;  padding-top:21px;}
+.btn_help_c_pulic h1{ font-size:14px;}
+.btn_help_c_pulic p{ font-size:11px;}
+.help_c_tel h3,.help_c_tel span{ font-size:16px;}
+.help_c_tel h3 img{ width:19px; height:21px;}	
+.bg_helpny_title,.bg_helpny_dacon{ line-height:39px; font-size:14px;}
+.bg_helpny_title img{ width:20px; height:21px; vertical-align:middle}
+.bg_leftmenu_con h1{ font-size:13px;}
+.bg_leftmenu_con .bg_leftmenu_title{ height:38px; line-height:38px; font-size:13px;}
+.bg_helpny_title h4{ font-size:15px;}
+.bg_helpny_title h4 p{ line-height:39px;}
+.bg_helpny_title h5{ bottom:2px;}
+.help_game_js_title{ font-size:15px;}
+.help_game_js_con p,.hg_js_style01{ font-size:13px;line-height:22px; }
+.tjjy_header_con,.tjjy_nav_tab a{ height:44px; line-height:44px; font-size:18px;}
+.help_tjjy_title,.text_tjjy_tel{ font-size:13px;}
+.help_tjjy_con .text_tjjy{ height:160px; font-size:13px;}
+.text_tjjy_tel .help_inp_tel,.text_tjjy_tel .help_inp_iphone{ height:38px; line-height:38px;font-size:13px;}
+.btn_tjjy_tjcon .btn_ebank_cr{ width:127px; height:47px; line-height:47px; background-size:100% 47px;}
+.text_tjjy_tel td{ height:46px; }
+.text_tjjy_tel .td_01{ width:80px;}
+.text_tjjy_tel .td_02{ width:208px;}
+.btn_tjjy_tjcon{ padding-top:0px;}
+
+.bg_jyhf_title h4,.bg_jyhf_dacon p{ font-size:14px;}
+.bg_jyhf_title h4 p{ line-height:39px;}
+.bg_jyhf_title h5{ right:0px; bottom:10px;  font-size:13px;}
+.faq_q_title, .faq_q_con{ font-size:13px;}
+.bg_notice_box{ padding:0px 0 80px 0;}
+.bg_notice_nr h3{ font-size:15px; margin-bottom:10px;}
+.bg_notice_nr h6{ font-size:12px; margin-bottom:10px;}
+.bg_notice_nr p {font-size: 13px;}
+	}
+@media only screen and (min-width:480px) and (max-width:639px){
+header h1{ font-size:24px;}
+.bg_help_c_title{ height:146px;padding:25px 0 0 0;}	
+.help_t_tab a img{ width:90px; height:82px;}
+.help_t_tab h2{ font-size:21px;}
+.bg_help_c_pu{ height:115px;}
+.btn_help_c_pulic{ height:80px; background-size:100% 108px; padding-top:21px;}
+.btn_help_c_pulic h1{ font-size:19px;}
+.btn_help_c_pulic p{ font-size:15px;}
+.help_c_tel h3,.help_c_tel span{ font-size:22px;}
+.help_c_tel h3 img{ width:24px; height:27px;}
+.bg_helpny_title,.bg_helpny_dacon{ line-height:50px; font-size:19px;}
+.bg_helpny_title img{ width:25px; height:27px; vertical-align:middle}
+.bg_leftmenu_con h1{ font-size:18px;}
+.bg_leftmenu_con .bg_leftmenu_title{ height:49px; line-height:49px; font-size:18px;}
+.bg_helpny_title h4{ font-size:18px;}
+.bg_helpny_title h4 p{ line-height:50px;margin-left:10px;}
+.bg_helpny_title h5{ bottom:5px;}
+.help_game_js_title{ font-size:21px;}
+.help_game_js_con p,.hg_js_style01{ font-size:18px;line-height:25px; }
+.tjjy_header_con,.tjjy_nav_tab a{ height:58px; line-height:58px; font-size:24px;}
+.help_tjjy_title,.text_tjjy_tel{ font-size:18px;}
+.help_tjjy_con .text_tjjy{ height:212px; font-size:18px;}
+.text_tjjy_tel .help_inp_tel,.text_tjjy_tel .help_inp_iphone{ height:40px; line-height:40px;font-size:18px;}
+.btn_tjjy_tjcon .btn_ebank_cr{ width:169px; height:61px; line-height:61px; background-size:100% 61px;font-size:30px;}
+.text_tjjy_tel td{ height:50px; }
+.text_tjjy_tel .td_01{ width:120px;}
+.text_tjjy_tel .td_02{ width:270px;}
+.btn_tjjy_tjcon{ padding-top:10px;}
+
+.bg_jyhf_title h4,.bg_jyhf_dacon p{ font-size:19px;}
+.bg_jyhf_title h4 p{ line-height:52px;}
+.bg_jyhf_title h5{ width:120px;right:30px; bottom:10px;  font-size:18px;}
+.faq_q_title, .faq_q_con{ font-size:18px;}
+.faq_q_title span, .faq_q_con span{ width:35px;}
+.bg_notice_box{ padding:10px 0 80px 0;}
+.bg_notice_nr h3{ font-size:21px; margin-bottom:10px;}
+.bg_notice_nr h6{ font-size:16px; margin-bottom:10px;}
+.bg_notice_nr p {font-size: 18px;}
+	}
+@media only screen and (min-width:640px){
+header h1{ font-size:32px;}	
+.bg_help_c_title{ height:185px;padding:35px 0 0 0;}	
+.help_t_tab a img{ width:118px; height:108px;}
+.help_t_tab h2{ font-size:28px;}
+.bg_help_c_pu{ height:160px;}
+.btn_help_c_pulic{ height:110px; background-size:100% 143px;padding-top:33px;}
+.btn_help_c_pulic h1{ font-size:26px;}
+.btn_help_c_pulic p{ font-size:20px;}
+.help_c_tel h3,.help_c_tel span{ font-size:30px;}
+.help_c_tel h3 img{ width:31px; height:35px;}
+.bg_helpny_title,.bg_helpny_dacon{ line-height:66px; font-size:26px;}
+.bg_helpny_title img{ width:32px; height:35px; vertical-align:middle}
+.bg_leftmenu_con h1{ font-size:24px;}
+.bg_leftmenu_con .bg_leftmenu_title{ height:64px; line-height:64px; font-size:24px;}
+.bg_helpny_title h4{ font-size:24px;}
+.bg_helpny_title h4 p{ line-height:66px;margin-left:20px;}
+.bg_helpny_title h5{ bottom:5px;}
+.help_game_js_title{ font-size:28px;}
+.help_game_js_con p,.hg_js_style01{ font-size:24px;line-height:30px; }
+.tjjy_header_con,.tjjy_nav_tab a{ height:76px; line-height:76px; font-size:32px;}
+.help_tjjy_title,.text_tjjy_tel{ font-size:24px;}
+.help_tjjy_con .text_tjjy{ height:282px; font-size:24px;}
+.text_tjjy_tel .help_inp_tel,.text_tjjy_tel .help_inp_iphone{ height:45px; line-height:45px;font-size:24px;}
+.btn_tjjy_tjcon .btn_ebank_cr{ width:225px; height:81px; line-height:81px; background-size:100% 81px; font-size:40px;}
+.text_tjjy_tel td{ height:70px;}
+.text_tjjy_tel .td_01{ width:170px;}
+.text_tjjy_tel .td_02{ width:360px;}
+.btn_tjjy_tjcon{ padding-top:20px;}
+
+.bg_jyhf_title h4,.bg_jyhf_dacon p{ font-size:26px;}
+.bg_jyhf_title h4 p{ line-height:68px;}
+.bg_jyhf_title h5{ width:170px; right:10px; bottom:15px; font-size:24px;}
+.faq_q_title, .faq_q_con{ font-size:24px;}
+.faq_q_title span, .faq_q_con span{ width:50px;}
+.bg_notice_box{ padding:20px 0 80px 0;}
+.bg_notice_nr h3{ font-size:28px; margin-bottom:10px;}
+.bg_notice_nr h6{ font-size:22px; margin-bottom:10px;}
+.bg_notice_nr p {font-size: 24px;}
+	}
+
+/*---help---*/
+/*---leftmenu---*/
+.bg_leftmenu_con{ width:190px; height:100%; position:fixed; left:0; top:0; z-index:8888; background-color:#123144;}
+.bg_leftmenu_con h1{  color:#c8feff; margin-bottom:10px; padding:8px 0 0 8px;}
+.bg_leftmenu_con ul li{ padding:0; margin:0;}
+.bg_leftmenu_con ul li a{ pointer-events:auto;}
+.bg_leftmenu_con .bg_leftmenu_title{ display:block; border:1px solid #13708f; border-bottom:1px solid #05374D; background:url(http://png.gc73.com.cn/sj_lobby/ebank/bg_notice_btn_all.png) repeat-x;  box-shadow: 1px 1px 5px 0 #003c54; margin:0 auto; color:#fff; padding-left:10px;}
+/*---leftmenu---*/
+/*---tanchuang---*/
+.bg_ebank_crqc_pbox{ position:absolute; left:10%; top:20%; z-index:9999;}
+.bg_pbox_xxcon{ background:url(http://png.gc73.com.cn/sj_lobby/ebank/bg_pbox_con.png) no-repeat center center; background-size:240px 148px; -webkit-background-size:240px 148px; -o-background-size:240px 148px; width:240px; height:148px; color:#ffd117; font-size:14px;}
+.bg_pbox_xxcon p{ width:190px; height:68px; margin:0 auto; padding-top:30px; line-height:19px; text-align:center;}
+.btn_e_pbox_qd{ display:block; width:113px; margin:0 auto;}
+.dialog_container{width:100%;width:100vw;height:100%;height:100vh;background-color:rgba(0,0,0,.35);text-align:center;position:fixed;top:0;left:0;z-index:10;}.dialog_container:after{display:inline-block;content:'';width:0;height:100%;vertical-align:middle;}.dialog_box{display:inline-block;text-align:left;vertical-align:super;position:relative;}.tx_center{text-align:center;padding-top:40px;}
+/*---tanchuang---*/
+/*---content---*/
+footer{ width:100%; height:34px; padding-top:10px; position:fixed; z-index:9999; bottom:0; font-size:14px; background:url(bg_footer_r.png) repeat-x bottom center;}
+footer p{ padding:0 20px;}
+footer p a{ display:block; text-align:center; padding:0 10px;}
+/*---footer---*/
+@media only screen and (min-width:640px){
+.help_tjjy_con .text_tjjy{ height:250px;}
+}
